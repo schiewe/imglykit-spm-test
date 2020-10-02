@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "ImglyKit",
+  platforms: [.iOS(.v9)],
   products: [
     .library(name: "ImglyKit", targets: ["ImglyKit"]),
   ],
