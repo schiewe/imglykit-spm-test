@@ -10,7 +10,7 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "ImglyKit", 
-        url: "https://www.dropbox.com/s/fyps5h9ntvactja/ImglyKit.zip?dl=1", 
-        checksum: "4e580cf3109e3c55e34259baa84d06257eee0906b16f48376e32afa80aeb238a"),
+        url: "https://www.dropbox.com/s/7fvdo7spoog10ef/ImglyKit.zip?dl=1", 
+        checksum: "fa27818ae388237261ac2e0bfd278f2bf10482f3b23969e3776f5c7ec2e283cd"),
   ]
 )
