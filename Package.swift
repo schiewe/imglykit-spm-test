@@ -10,7 +10,7 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "ImglyKit", 
-        url: "https://github.com/schiewe/imglykit-spm-test/releases/download/10.21.3/ImglyKit-10.21.3.zip", 
-        checksum: "285fa98b7dbbf296035aa248f65ed4e09f519257641de74bf70317a5e4fb0f6c"),
+        url: "https://github.com/schiewe/imglykit-spm-test/releases/download/10.21.4/ImglyKit-10.21.4.zip", 
+        checksum: "1a24dc0514df85e12726ea7ec1cb1bc1b594cfa050fd6047a2474dd9e0a4a7ae"),
   ]
 )
