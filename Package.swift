@@ -1,16 +1,16 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
   name: "ImglyKit",
-  platforms: [.iOS(.v9)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(name: "ImglyKit", targets: ["ImglyKit"]),
   ],
   targets: [
     .binaryTarget(
         name: "ImglyKit", 
-        url: "https://github.com/schiewe/imglykit-spm-test/releases/download/10.21.4/ImglyKit-10.21.4.zip", 
-        checksum: "1a24dc0514df85e12726ea7ec1cb1bc1b594cfa050fd6047a2474dd9e0a4a7ae"),
+        url: "https://releases.photoeditorsdk.com/ios/ImglyKit-11.2.0-beta.1.xcframework.zip", 
+        checksum: "a40c5cbc3b61b3ab384ad8ce2b64d14d02c7ad6ee2290514ef18e9974a663e1e"),
   ]
 )
